@@ -1,0 +1,44 @@
+body {
+  margin: 0;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.word-wrap {
+  min-width: 500px;
+  min-height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: orange;
+  flex-direction: column;
+}
+
+.title {
+  font-size: 24px;
+}
+
+.action {
+  display: flex;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.action input,
+.action button {
+  padding: 10px 20px;
+  outline: none;
+  border: 1px solid #eee;
+}
+
+.action button {
+  margin-left: 10px;
+  background-color: azure;
+  cursor: pointer;
+}
+
+.action button:hover {
+  background-color: antiquewhite;
+}
