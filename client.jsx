@@ -1,11 +1,11 @@
-const React = require('react')
-const ReactDom = require('react-dom/client')
-const WordRelay = require('./WordRelay')
+import React from 'react'
+import ReactDom from 'react-dom/client'
+import NumberBaseball from './NumberBaseball'
 
 const Client = () => {
   return (
     <div>
-      <WordRelay></WordRelay>
+      <NumberBaseball></NumberBaseball>
     </div>
   )
 }
